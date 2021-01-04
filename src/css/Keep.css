@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.header{
+    background-color: #FFC20E;
+}
+.logo{
+    width: 72px;
+}
+.hhh{
+    text-align: left;
+}
+.item{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.hbv{
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+.maindiv{
+    background-color: white;
+}
+#areat{
+    width: 600px ;
+    border: none;
+    border-radius: 6px;
+    outline: blue;
+}
+.insider{
+    width: 645px;
+    display: block;
+    margin: auto;
+border-radius: 8px !important;
+}
+.textfa{
+    width: 600px
+}
+.submitb{
+    float: right;
+    height: 58px !important;
+    border-radius: 30px !important;
+    background-color: #FFC20E !important;
+    border: none;
+outline-style: none;
+outline: none;
+margin-top: -12px !important;
+}
+.plus{
+    font-weight: bold;
+    outline-style: none;
+outline: none;
+font-size: 30px !important;
+}
+#areatt{
+    width: 300px;
+    border: none;
+    
+
+}
+.txtff{
+    width: 600px;
+    height: 30px;
+    border-bottom: 2px solid #FFC20E;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+.textfaa{
+    width: 300px
+}
+.heading{
+    text-align: left;
+    font-family: 'Staatliches', cursive;
+
+}
+.hhhs{
+    border-bottom: 2px solid #FFC20E;
+    width: 199px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.para{
+    text-align: left;
+}
+/* MOBILE */
+@media only screen and (min-width: 320px) and (max-width:767px){
+    #areat{
+        width: 300px;
+    }
+    .insider{
+        width: 100%;
+    }
+    .textfa{
+        width: 300px
+    }
+    .txtff{
+        width: 300px;
+    }
+  }
